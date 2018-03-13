@@ -33,7 +33,7 @@
   </parent>
 
   <artifactId>parent-application</artifactId>
-  <version>1.0.0</version>
+  <version>1.0.1</version>
 
   <name>Yildiz Parent Application</name>
   <description>Project to hold the parent pom for all application projects.</description>
@@ -69,7 +69,7 @@
   <inceptionYear>2018</inceptionYear>
 
   <properties>
-    <finalname>${artifactId}</finalname>
+    <finalname>${project.artifactId}</finalname>
     <mainclass>to-be-filled</mainclass>
   </properties>
 

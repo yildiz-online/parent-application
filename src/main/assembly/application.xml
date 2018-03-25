@@ -38,7 +38,7 @@
             <unpack>true</unpack>
             <scope>runtime</scope>
             <excludes>
-                <exclude>*.dll.a</exclude>
+                <exclude>be.yildiz-games:component-native-*</exclude>
             </excludes>
         </dependencySet>
     </dependencySets>

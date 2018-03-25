@@ -33,7 +33,7 @@
   </parent>
 
   <artifactId>parent-application</artifactId>
-  <version>1.0.1</version>
+  <version>1.0.2-SNAPSHOT</version>
 
   <name>Yildiz Parent Application</name>
   <description>Project to hold the parent pom for all application projects.</description>
@@ -79,9 +79,9 @@
       <plugin>
         <artifactId>maven-assembly-plugin</artifactId>
         <configuration>
-          <descriptorRefs>
-            <descriptorRef>jar-with-dependencies</descriptorRef>
-          </descriptorRefs>
+          <descriptors>
+            <descriptor>src/main/assembly/application.xml</descriptor>
+          </descriptors>
           <archive>
             <manifest>
               <mainClass>${mainclass}</mainClass>

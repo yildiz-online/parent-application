@@ -80,7 +80,7 @@
         <artifactId>maven-assembly-plugin</artifactId>
         <configuration>
           <descriptorRefs>
-            <descriptor>jar-with-dependencies</descriptor>
+            <descriptorRef>jar-with-dependencies</descriptorRef>
           </descriptorRefs>
           <archive>
             <manifest>
@@ -117,5 +117,4 @@
   </build>
 
 </project>
-
 

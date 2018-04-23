@@ -1,7 +1,7 @@
 <!--
   ~ This file is part of the Yildiz-Engine project, licenced under the MIT License  (MIT)
   ~
-  ~  Copyright (c) 2018 GrÃ©gory Van den Borre
+  ~  Copyright (c) 2018 Grégory Van den Borre
   ~
   ~  More infos available: https://www.yildiz-games.be
   ~
@@ -33,7 +33,7 @@
   </parent>
 
   <artifactId>parent-application</artifactId>
-  <version>1.0.2-SNAPSHOT</version>
+  <version>1.0.2</version>
 
   <name>Yildiz Parent Application</name>
   <description>Project to hold the parent pom for all application projects.</description>
@@ -49,7 +49,7 @@
 
   <developers>
     <developer>
-      <name>GrÃ©gory Van den Borre</name>
+      <name>Grégory Van den Borre</name>
       <email>vandenborre.gregory@hotmail.fr</email>
       <url>https://bitbucket.org/yildiz/</url>
     </developer>
@@ -82,7 +82,7 @@
           <dependency>
             <groupId>be.yildiz-games</groupId>
             <artifactId>common-application</artifactId>
-            <version>1.0.0-SNAPSHOT</version>
+            <version>1.0.0</version>
           </dependency>
         </dependencies>
         <configuration>

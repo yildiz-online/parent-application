@@ -73,6 +73,26 @@
     <mainclass>to-be-filled</mainclass>
   </properties>
 
+  <dependencyManagement>
+    <dependencies>
+      <dependency>
+        <groupId>org.slf4j</groupId>
+        <artifactId>slf4j-api</artifactId>
+        <version>1.7.25</version>
+      </dependency>
+      <dependency>
+        <groupId>com.splunk.logging</groupId>
+        <artifactId>splunk-library-javalogging</artifactId>
+        <version>1.6.2</version>
+      </dependency>
+      <dependency>
+        <groupId>ch.qos.logback</groupId>
+        <artifactId>logback-classic</artifactId>
+        <version>1.2.3</version>
+      </dependency>
+    </dependencies>
+  </dependencyManagement>
+
   <build>
     <finalName>${finalname}</finalName>
     <plugins>
@@ -83,16 +103,6 @@
             <groupId>be.yildiz-games</groupId>
             <artifactId>common-application</artifactId>
             <version>1.0.1</version>
-          </dependency>
-          <dependency>
-            <groupId>com.splunk.logging</groupId>
-            <artifactId>splunk-library-javalogging</artifactId>
-            <version>1.6.2</version>
-          </dependency>
-          <dependency>
-            <groupId>ch.qos.logback</groupId>
-            <artifactId>logback-classic</artifactId>
-            <version>1.2.3</version>
           </dependency>
         </dependencies>
         <configuration>

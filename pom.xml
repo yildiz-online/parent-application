@@ -78,13 +78,6 @@
     <plugins>
       <plugin>
         <artifactId>maven-assembly-plugin</artifactId>
-        <dependencies>
-          <dependency>
-            <groupId>be.yildiz-games</groupId>
-            <artifactId>common-application</artifactId>
-            <version>1.0.2-SNAPSHOT</version>
-          </dependency>
-        </dependencies>
         <configuration>
           <descriptorRefs>
             <descriptorRef>assembly</descriptorRef>

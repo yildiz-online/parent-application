@@ -70,6 +70,8 @@
   <properties>
     <finalname>${project.artifactId}</finalname>
     <mainclass>to-be-filled</mainclass>
+    <date-tz>UTC</date-tz>
+    <common-application.version>1.0.3</common-application.version>
   </properties>
 
   <build>
@@ -81,7 +83,7 @@
           <dependency>
             <groupId>be.yildiz-games</groupId>
             <artifactId>common-application</artifactId>
-            <version>1.0.3</version>
+            <version>${common-application.version}</version>
           </dependency>
         </dependencies>
         <configuration>
@@ -113,7 +115,7 @@
               <id>get-git-info</id>
               <goals><goal>revision</goal></goals>
               <configuration>
-                <dateFormatTimeZone>UTC</dateFormatTimeZone>
+                <dateFormatTimeZone>${date-tz}</dateFormatTimeZone>
                 <generateGitPropertiesFile>true</generateGitPropertiesFile>
               </configuration>
             </execution>

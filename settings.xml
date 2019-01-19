@@ -30,7 +30,7 @@
       <password>${env.OSSRH_PWD_TOKEN}</password>
     </server>
     <server>
-      <id>yildiz-nexus-release</id>
+      <id>yildiz-engine-nexus-release</id>
       <username>${env.REPO_USER}</username>
       <password>${env.REPO_PASSWORD}</password>
     </server>
@@ -61,7 +61,7 @@
           <url>http://repo.spring.io/libs-release</url>
         </repository>
         <repository>
-          <id>yildiz-nexus-release</id>
+          <id>yildiz-engine-nexus-release</id>
           <releases>
             <enabled>true</enabled>
           </releases>
@@ -71,15 +71,6 @@
           <url>https://nexus.yildiz-games.be/repository/Yildiz-Engine-Release/</url>
         </repository>
       </repositories>
-      <pluginRepositories>
-        <pluginRepository>
-          <id>spring</id>
-          <releases>
-            <enabled>true</enabled>
-          </releases>
-          <url>http://repo.spring.io/libs-release</url>
-        </pluginRepository>
-      </pluginRepositories>
     </profile>
   </profiles>
 </settings>

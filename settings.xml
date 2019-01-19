@@ -51,13 +51,29 @@
             <enabled>true</enabled>
             <updatePolicy>always</updatePolicy>
           </snapshots>
+          <releases>
+            <enabled>false</enabled>
+          </releases>
           <url>https://oss.sonatype.org/content/repositories/snapshots</url>
+        </repository>
+        <repository>
+          <id>ossrh</id>
+          <releases>
+            <enabled>true</enabled>
+          </releases>
+          <snapshots>
+            <enabled>false</enabled>
+          </snapshots>
+          <url>https://repo.maven.apache.org/maven2/</url>
         </repository>
         <repository>
           <id>spring</id>
           <releases>
             <enabled>true</enabled>
           </releases>
+          <snapshots>
+            <enabled>false</enabled>
+          </snapshots>
           <url>http://repo.spring.io/libs-release</url>
         </repository>
         <repository>

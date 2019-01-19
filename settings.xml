@@ -87,6 +87,18 @@
           <url>https://nexus.yildiz-games.be/repository/Yildiz-Engine-Release/</url>
         </repository>
       </repositories>
+      <pluginRepositories>
+        <pluginRepository>
+          <id>spring</id>
+          <releases>
+            <enabled>true</enabled>
+          </releases>
+          <snapshots>
+            <enabled>false</enabled>
+          </snapshots>
+          <url>http://repo.spring.io/libs-release</url>
+        </pluginRepository>
+      </pluginRepositories>
     </profile>
   </profiles>
 </settings>

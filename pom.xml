@@ -32,7 +32,7 @@
   </parent>
 
   <artifactId>parent-application</artifactId>
-  <version>1.0.7</version>
+  <version>1.0.8-SNAPSHOT</version>
 
   <name>Yildiz Parent Application</name>
   <description>Project to hold the parent pom for all application projects.</description>

@@ -28,7 +28,7 @@
   <parent>
     <groupId>be.yildiz-games</groupId>
     <artifactId>parent</artifactId>
-    <version>3.0.5-SNAPSHOT</version>
+    <version>3.0.5</version>
   </parent>
 
   <artifactId>parent-application</artifactId>

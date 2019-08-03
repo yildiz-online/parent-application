@@ -40,7 +40,7 @@
   <parent>
     <groupId>be.yildiz-games</groupId>
     <artifactId>parent</artifactId>
-    <version>3.0.6</version>
+    <version>3.0.7</version>
   </parent>
 
   <licenses>

@@ -76,7 +76,7 @@
     <finalname>${project.artifactId}</finalname>
     <mainclass>to-be-filled</mainclass>
     <date-tz>UTC</date-tz>
-    <common-application.version>1.0.13</common-application.version>
+    <common-application.version>1.0.14-SNAPSHOT</common-application.version>
   </properties>
 
   <profiles>

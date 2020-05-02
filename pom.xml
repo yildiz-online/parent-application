@@ -35,12 +35,12 @@
   <url>https://engine.yildiz-games.be</url>
 
   <artifactId>parent-application</artifactId>
-  <version>1.0.15</version>
+  <version>1.0.16</version>
 
   <parent>
     <groupId>be.yildiz-games</groupId>
     <artifactId>parent</artifactId>
-    <version>3.0.11</version>
+    <version>3.0.13</version>
   </parent>
 
   <licenses>

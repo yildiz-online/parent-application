@@ -35,12 +35,12 @@
   <url>https://engine.yildiz-games.be</url>
 
   <artifactId>parent-application</artifactId>
-  <version>1.0.16</version>
+  <version>1.0.17</version>
 
   <parent>
     <groupId>be.yildiz-games</groupId>
     <artifactId>parent</artifactId>
-    <version>3.0.13</version>
+    <version>4.0.0</version>
   </parent>
 
   <licenses>
@@ -76,7 +76,7 @@
     <finalname>${project.artifactId}</finalname>
     <mainclass>to-be-filled</mainclass>
     <date-tz>UTC</date-tz>
-    <common-application.version>1.0.14</common-application.version>
+    <common-application.version>1.1.3</common-application.version>
   </properties>
 
   <profiles>
@@ -117,7 +117,7 @@
           <plugin>
             <groupId>pl.project13.maven</groupId>
             <artifactId>git-commit-id-plugin</artifactId>
-            <version>4.0.0</version>
+            <version>4.0.2</version>
             <executions>
               <execution>
                 <id>get-git-info</id>

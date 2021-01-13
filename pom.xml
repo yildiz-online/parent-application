@@ -35,7 +35,7 @@
   <url>https://engine.yildiz-games.be</url>
 
   <artifactId>parent-application</artifactId>
-  <version>1.0.19-SNAPSHOT</version>
+  <version>1.0.20-SNAPSHOT</version>
 
   <parent>
     <groupId>be.yildiz-games</groupId>
@@ -76,7 +76,7 @@
     <finalname>${project.artifactId}</finalname>
     <mainclass>to-be-filled</mainclass>
     <date-tz>UTC</date-tz>
-    <common-application.version>1.1.8-SNAPSHOT</common-application.version>
+    <common-application.version>1.1.8</common-application.version>
   </properties>
 
   <profiles>

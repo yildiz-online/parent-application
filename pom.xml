@@ -1,26 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
 <!--
   ~ This file is part of the Yildiz-Engine project, licenced under the MIT License  (MIT)
-  ~
-  ~  Copyright (c) 2019 Grégory Van den Borre
-  ~
+  ~  Copyright (c) 2018-2023 Grégory Van den Borre
   ~  More infos available: https://engine.yildiz-games.be
-  ~
   ~  Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated
-  ~  documentation files (the "Software"), to deal in the Software without restriction, including without
-  ~  limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies
-  ~  of the Software, and to permit persons to whom the Software is furnished to do so,
-  ~  subject to the following conditions:
-  ~
-  ~  The above copyright notice and this permission notice shall be included in all copies or substantial
-  ~  portions of the Software.
-  ~
+  ~  documentation files (the "Software"), to deal in the Software without restriction, including without limitation
+  ~  the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to
+  ~  permit persons to whom the Software is furnished to do so, subject to the following conditions: The above copyright
+  ~  notice and this permission notice shall be included in all copies or substantial portions of the  Software.
   ~  THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE
   ~  WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS
-  ~  OR COPYRIGHT  HOLDERS BE LIABLE FOR ANY CLAIM,
-  ~  DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-  ~  OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE  SOFTWARE.
+  ~  OR COPYRIGHT  HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR
+  ~  OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
   ~
   -->
 
@@ -28,55 +19,32 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 
   <modelVersion>4.0.0</modelVersion>
-
   <name>Yildiz-Engine Parent Application</name>
   <description>Project to hold the parent pom for all application projects.</description>
-  <inceptionYear>2018</inceptionYear>
   <url>https://engine.yildiz-games.be</url>
 
-  <artifactId>parent-application</artifactId>
-  <version>2.0.6</version>
-
-  <parent>
-    <groupId>be.yildiz-games</groupId>
-    <artifactId>parent</artifactId>
-    <version>5.0.4</version>
-  </parent>
-
-  <licenses>
-    <license>
-      <name>MIT License</name>
-      <url>https://github.com/yildiz-online/parent/blob/develop/LICENSE</url>
-      <distribution>repo</distribution>
-    </license>
-  </licenses>
-
-  <developers>
-    <developer>
-      <name>Grégory Van den Borre</name>
-      <email>vandenborre.gregory@hotmail.fr</email>
-      <url>https://github.com/yildiz-online</url>
-    </developer>
-  </developers>
-
-  <issueManagement>
-    <system>JIRA</system>
-    <url>https://yildiz.atlassian.net</url>
-  </issueManagement>
-
+  <packaging>pom</packaging>
+  <inceptionYear>2018</inceptionYear>
   <scm>
     <connection>scm:git:https://github.com/yildiz-online/parent-application</connection>
     <developerConnection>scm:git:https://github.com/yildiz-online/parent-application</developerConnection>
     <url>https://github.com/yildiz-online/parent-application</url>
   </scm>
 
-  <packaging>pom</packaging>
+  <parent>
+    <artifactId>parent</artifactId>
+    <groupId>be.yildiz-games</groupId>
+    <version>6.0.0</version>
+  </parent>
+
+  <artifactId>parent-application</artifactId>
+  <version>3.0.0</version>
 
   <properties>
     <finalname>${project.artifactId}</finalname>
     <mainclass>to-be-filled</mainclass>
     <date-tz>UTC</date-tz>
-    <common-application.version>1.2.17</common-application.version>
+    <common-application.version>1.4.0</common-application.version>
   </properties>
 
   <profiles>
@@ -117,7 +85,7 @@
           <plugin>
             <groupId>io.github.git-commit-id</groupId>
             <artifactId>git-commit-id-maven-plugin</artifactId>
-            <version>5.0.0</version>
+            <version>6.0.0</version>
             <executions>
               <execution>
                 <id>get-git-info</id>

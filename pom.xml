@@ -38,7 +38,7 @@
   </parent>
 
   <artifactId>parent-application</artifactId>
-  <version>3.0.1-SNAPSHOT</version>
+  <version>3.0.1</version>
 
   <properties>
     <finalname>${project.artifactId}</finalname>

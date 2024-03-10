@@ -38,13 +38,13 @@
   </parent>
 
   <artifactId>parent-application</artifactId>
-  <version>3.0.2</version>
+  <version>3.0.3</version>
 
   <properties>
     <finalname>${project.artifactId}</finalname>
     <mainclass>to-be-filled</mainclass>
     <date-tz>UTC</date-tz>
-    <common-application.version>1.4.7</common-application.version>
+    <common-application.version>1.4.8</common-application.version>
   </properties>
 
   <profiles>
@@ -85,7 +85,7 @@
           <plugin>
             <groupId>io.github.git-commit-id</groupId>
             <artifactId>git-commit-id-maven-plugin</artifactId>
-            <version>7.0.0</version>
+            <version>8.0.1</version>
             <executions>
               <execution>
                 <id>get-git-info</id>

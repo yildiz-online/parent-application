@@ -44,7 +44,7 @@
     <finalname>${project.artifactId}</finalname>
     <mainclass>to-be-filled</mainclass>
     <date-tz>UTC</date-tz>
-    <common-application.version>1.4.15</common-application.version>
+    <common-application.version>1.4.17</common-application.version>
   </properties>
 
   <profiles>

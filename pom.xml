@@ -34,17 +34,17 @@
   <parent>
     <artifactId>parent</artifactId>
     <groupId>be.yildiz-games</groupId>
-    <version>6.0.0</version>
+    <version>6.0.2</version>
   </parent>
 
   <artifactId>parent-application</artifactId>
-  <version>3.0.8</version>
+  <version>3.0.9</version>
 
   <properties>
     <finalname>${project.artifactId}</finalname>
     <mainclass>to-be-filled</mainclass>
     <date-tz>UTC</date-tz>
-    <common-application.version>1.4.14</common-application.version>
+    <common-application.version>1.5.3</common-application.version>
   </properties>
 
   <profiles>
@@ -85,7 +85,7 @@
           <plugin>
             <groupId>io.github.git-commit-id</groupId>
             <artifactId>git-commit-id-maven-plugin</artifactId>
-            <version>9.0.1</version>
+            <version>9.0.2</version>
             <executions>
               <execution>
                 <id>get-git-info</id>

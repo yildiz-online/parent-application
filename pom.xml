@@ -34,11 +34,11 @@
   <parent>
     <artifactId>parent</artifactId>
     <groupId>be.yildiz-games</groupId>
-    <version>7.0.0</version>
+    <version>7.0.1</version>
   </parent>
 
   <artifactId>parent-application</artifactId>
-  <version>3.0.11</version>
+  <version>3.0.10</version>
 
   <properties>
     <finalname>${project.artifactId}</finalname>

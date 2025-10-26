@@ -38,13 +38,13 @@
   </parent>
 
   <artifactId>parent-application</artifactId>
-  <version>3.0.10</version>
+  <version>3.0.11</version>
 
   <properties>
     <finalname>${project.artifactId}</finalname>
     <mainclass>to-be-filled</mainclass>
     <date-tz>UTC</date-tz>
-    <common-application.version>1.5.4</common-application.version>
+    <common-application.version>1.5.5</common-application.version>
   </properties>
 
   <profiles>
